@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family:'montserrat' ,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+p{
+    color: black;
+    font-size:1.4rem;
+    font-weight:300;
+    line-height:2.5rem;
+    letter-spacing:.05rem;
+    margin-top:5px ;
+}
+#footer{
+    background-image:linear-gradient(60deg ,#29323c 0%,#485563 100% ) ;
+}
+#footer h1{
+      color: white;
+      font-size: 4rem;
+}
+#footer span{
+    color: red;
+}
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+#footer h2{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+#footer .social-item{
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+
+}
+#footer .social-item img{
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+#footer .social-item:hover img{
+    filter: grayscale(0);
+}
+#footer p{
+    font-size: 1.3rem;
+    color: white;
+}
